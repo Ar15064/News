@@ -1,0 +1,121 @@
+body {
+    background-color: #56514F;
+}
+
+header > h2.Logo{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+header > h2.Logo > a {
+    text-decoration: none;
+    color: #A39E92;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    border: groove;
+    border-radius: 20px;
+    border-color: transparent;
+
+    padding: 10px 6px;
+     
+}
+
+header > h2.Logo > a:hover {
+    color: white;
+    background-color: black;
+    
+
+     
+}
+
+
+
+header.contains > ul{
+    list-style-type: none;
+
+}
+
+header.contains > ul > li{
+    display: flex;
+    list-style-type: none;
+
+}
+
+
+header > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left: -175px;
+    padding: 20px;
+        
+    
+}
+
+header > u > li {
+    
+    
+}
+
+header > ul > li > a {
+    color: #E7DBD6;
+    font-size: 25px;
+    font-size: 600;
+    margin-left: 100px;
+    text-decoration: none;
+    border: groove;
+    border-radius: 20px;
+    padding: 5px 16px;
+    border-color: transparent;
+
+    
+    
+}
+
+header > ul > li > a:hover {
+    color: white;
+    background-color: black;
+
+    
+    
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+article > h2 {
+    text-align: center;
+    position: relative;
+    
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article > h2.HomePage{
+    border-style: groove;
+    border-color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background: linear-gradient();
+    margin: auto;
+    margin-top: 100px;
+    width: 40%;
+    height: 40%;
+    color: #56514F;
+}
+
+article > h2.HomePage > p.inside {
+    font-size: 20px;
+    color: #E7DBD6;
+
+
+}
+
+span.Exam {
+    font-size: 30px;
+}
